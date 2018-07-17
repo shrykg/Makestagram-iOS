@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6B148508A4DFAB9944EBFA7A /* Pods_Makestagram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBA02BAF9C774C4485A91287 /* Pods_Makestagram.framework */; };
+		B723AC4120E1405A005EC0D3 /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B723AC4020E1405A005EC0D3 /* UserService.swift */; };
+		B723AC4320E17421005EC0D3 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B723AC4220E17421005EC0D3 /* Constants.swift */; };
+		B723AC4520E17643005EC0D3 /* Storyboard+Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = B723AC4420E17643005EC0D3 /* Storyboard+Utility.swift */; };
+		B723AC4720E1AFFD005EC0D3 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B723AC4620E1AFFD005EC0D3 /* HomeViewController.swift */; };
+		B723AC4920E1B01D005EC0D3 /* FindFriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B723AC4820E1B01D005EC0D3 /* FindFriendsViewController.swift */; };
+		B728464020F4FC0D00BB0EA5 /* LikeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B728463F20F4FC0D00BB0EA5 /* LikeService.swift */; };
+		B728464220F57F6B00BB0EA5 /* FollowService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B728464120F57F6B00BB0EA5 /* FollowService.swift */; };
+		B72EC6C720EB759D0063AACB /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72EC6C620EB759D0063AACB /* MainTabBarController.swift */; };
+		B72EC6C920EB86130063AACB /* MGPhotoHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72EC6C820EB86130063AACB /* MGPhotoHelper.swift */; };
+		B72EC6CB20EBE9980063AACB /* StorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72EC6CA20EBE9980063AACB /* StorageService.swift */; };
+		B72EC6CD20EE1B4E0063AACB /* PostService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72EC6CC20EE1B4E0063AACB /* PostService.swift */; };
+		B72EC6CF20EE3A530063AACB /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72EC6CE20EE3A530063AACB /* Post.swift */; };
+		B72EC6D120EEA28D0063AACB /* UIImage+Size.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72EC6D020EEA28D0063AACB /* UIImage+Size.swift */; };
+		B72EC6D320EEAB350063AACB /* StorageReference+Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72EC6D220EEAB350063AACB /* StorageReference+Post.swift */; };
+		B72EC6D620EF8FB90063AACB /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B72EC6D520EF8FB90063AACB /* Home.storyboard */; };
+		B72EC6D820EF98D90063AACB /* PostImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72EC6D720EF98D90063AACB /* PostImageCell.swift */; };
+		B72EC6DA20EFA1A10063AACB /* PostHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72EC6D920EFA1A10063AACB /* PostHeaderCell.swift */; };
+		B72EC6DC20EFA91E0063AACB /* PostActionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72EC6DB20EFA91E0063AACB /* PostActionCell.swift */; };
+		B776966F20FC5A1400F54E3B /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B776966E20FC5A1400F54E3B /* ProfileViewController.swift */; };
+		B776967120FC651E00F54E3B /* PostThumpImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B776967020FC651E00F54E3B /* PostThumpImageCell.swift */; };
+		B776967320FC71B700F54E3B /* ProfileHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B776967220FC71B700F54E3B /* ProfileHeaderView.swift */; };
+		B7849A5020F5C49A0040642B /* FindFriendsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7849A4F20F5C49A0040642B /* FindFriendsCell.swift */; };
+		B7CC44D320E0D72D00659AA7 /* CreateUserNameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7CC44D220E0D72D00659AA7 /* CreateUserNameViewController.swift */; };
+		B7D0210220DF179600372950 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D0210120DF179600372950 /* AppDelegate.swift */; };
+		B7D0210720DF179600372950 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7D0210520DF179600372950 /* Main.storyboard */; };
+		B7D0210920DF179600372950 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7D0210820DF179600372950 /* Assets.xcassets */; };
+		B7D0210C20DF179600372950 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7D0210A20DF179600372950 /* LaunchScreen.storyboard */; };
+		B7D0211420DF4FEF00372950 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B7D0211320DF4FEF00372950 /* GoogleService-Info.plist */; };
+		B7D0211F20DFD66600372950 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7D0211E20DFD66600372950 /* Login.storyboard */; };
+		B7D0212120DFD6CF00372950 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D0212020DFD6CF00372950 /* LoginViewController.swift */; };
+		B7D3C1D620E0C69000E767A8 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D3C1D520E0C69000E767A8 /* User.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8C36CE80444D435B01DF889C /* Pods-Makestagram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Makestagram.release.xcconfig"; path = "Pods/Target Support Files/Pods-Makestagram/Pods-Makestagram.release.xcconfig"; sourceTree = "<group>"; };
+		A2DBF1AF87CF929C51859F1F /* Pods-Makestagram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Makestagram.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Makestagram/Pods-Makestagram.debug.xcconfig"; sourceTree = "<group>"; };
+		B723AC4020E1405A005EC0D3 /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
+		B723AC4220E17421005EC0D3 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		B723AC4420E17643005EC0D3 /* Storyboard+Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Storyboard+Utility.swift"; sourceTree = "<group>"; };
+		B723AC4620E1AFFD005EC0D3 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		B723AC4820E1B01D005EC0D3 /* FindFriendsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindFriendsViewController.swift; sourceTree = "<group>"; };
+		B728463F20F4FC0D00BB0EA5 /* LikeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikeService.swift; sourceTree = "<group>"; };
+		B728464120F57F6B00BB0EA5 /* FollowService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowService.swift; sourceTree = "<group>"; };
+		B72EC6C620EB759D0063AACB /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		B72EC6C820EB86130063AACB /* MGPhotoHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MGPhotoHelper.swift; sourceTree = "<group>"; };
+		B72EC6CA20EBE9980063AACB /* StorageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageService.swift; sourceTree = "<group>"; };
+		B72EC6CC20EE1B4E0063AACB /* PostService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostService.swift; sourceTree = "<group>"; };
+		B72EC6CE20EE3A530063AACB /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		B72EC6D020EEA28D0063AACB /* UIImage+Size.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Size.swift"; sourceTree = "<group>"; };
+		B72EC6D220EEAB350063AACB /* StorageReference+Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StorageReference+Post.swift"; sourceTree = "<group>"; };
+		B72EC6D520EF8FB90063AACB /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		B72EC6D720EF98D90063AACB /* PostImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostImageCell.swift; sourceTree = "<group>"; };
+		B72EC6D920EFA1A10063AACB /* PostHeaderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostHeaderCell.swift; sourceTree = "<group>"; };
+		B72EC6DB20EFA91E0063AACB /* PostActionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostActionCell.swift; sourceTree = "<group>"; };
+		B776966E20FC5A1400F54E3B /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		B776967020FC651E00F54E3B /* PostThumpImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostThumpImageCell.swift; sourceTree = "<group>"; };
+		B776967220FC71B700F54E3B /* ProfileHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeaderView.swift; sourceTree = "<group>"; };
+		B7849A4F20F5C49A0040642B /* FindFriendsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindFriendsCell.swift; sourceTree = "<group>"; };
+		B7CC44D220E0D72D00659AA7 /* CreateUserNameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateUserNameViewController.swift; sourceTree = "<group>"; };
+		B7D020FE20DF179600372950 /* Makestagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Makestagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7D0210120DF179600372950 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B7D0210620DF179600372950 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B7D0210820DF179600372950 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B7D0210B20DF179600372950 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B7D0210D20DF179600372950 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7D0211320DF4FEF00372950 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B7D0211E20DFD66600372950 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		B7D0212020DFD6CF00372950 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		B7D3C1D520E0C69000E767A8 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		DBA02BAF9C774C4485A91287 /* Pods_Makestagram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Makestagram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B7D020FB20DF179600372950 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B148508A4DFAB9944EBFA7A /* Pods_Makestagram.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D6BEBFAAC745688972E324C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A2DBF1AF87CF929C51859F1F /* Pods-Makestagram.debug.xcconfig */,
+				8C36CE80444D435B01DF889C /* Pods-Makestagram.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B7D020F520DF179600372950 = {
+			isa = PBXGroup;
+			children = (
+				B7D0210020DF179600372950 /* Makestagram */,
+				B7D020FF20DF179600372950 /* Products */,
+				B7D0210820DF179600372950 /* Assets.xcassets */,
+				3D6BEBFAAC745688972E324C /* Pods */,
+				BB471AC23003FBCF6CE75748 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B7D020FF20DF179600372950 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B7D020FE20DF179600372950 /* Makestagram.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B7D0210020DF179600372950 /* Makestagram */ = {
+			isa = PBXGroup;
+			children = (
+				B7D0210120DF179600372950 /* AppDelegate.swift */,
+				B7D0211D20DFCD0500372950 /* Supporting */,
+				B7D0211C20DFCC8700372950 /* Extensions */,
+				B7D0211B20DFCC8300372950 /* Helpers */,
+				B7D0211A20DFCC8000372950 /* Views */,
+				B7D0211920DFCC7C00372950 /* Models */,
+				B7D0211820DFCC7800372950 /* Storyboards */,
+				B7D0211720DFCC7500372950 /* Services */,
+				B7D0211520DFCC4100372950 /* Controllers */,
+			);
+			path = Makestagram;
+			sourceTree = "<group>";
+		};
+		B7D0211520DFCC4100372950 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B7D0212020DFD6CF00372950 /* LoginViewController.swift */,
+				B7CC44D220E0D72D00659AA7 /* CreateUserNameViewController.swift */,
+				B72EC6C620EB759D0063AACB /* MainTabBarController.swift */,
+				B723AC4620E1AFFD005EC0D3 /* HomeViewController.swift */,
+				B723AC4820E1B01D005EC0D3 /* FindFriendsViewController.swift */,
+				B776966E20FC5A1400F54E3B /* ProfileViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		B7D0211720DFCC7500372950 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				B72EC6CC20EE1B4E0063AACB /* PostService.swift */,
+				B72EC6CA20EBE9980063AACB /* StorageService.swift */,
+				B723AC4020E1405A005EC0D3 /* UserService.swift */,
+				B728463F20F4FC0D00BB0EA5 /* LikeService.swift */,
+				B728464120F57F6B00BB0EA5 /* FollowService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		B7D0211820DFCC7800372950 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				B72EC6D520EF8FB90063AACB /* Home.storyboard */,
+				B7D0210520DF179600372950 /* Main.storyboard */,
+				B7D0210A20DF179600372950 /* LaunchScreen.storyboard */,
+				B7D0211E20DFD66600372950 /* Login.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		B7D0211920DFCC7C00372950 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B7D3C1D520E0C69000E767A8 /* User.swift */,
+				B72EC6CE20EE3A530063AACB /* Post.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B7D0211A20DFCC8000372950 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B72EC6D720EF98D90063AACB /* PostImageCell.swift */,
+				B72EC6D920EFA1A10063AACB /* PostHeaderCell.swift */,
+				B72EC6DB20EFA91E0063AACB /* PostActionCell.swift */,
+				B7849A4F20F5C49A0040642B /* FindFriendsCell.swift */,
+				B776967020FC651E00F54E3B /* PostThumpImageCell.swift */,
+				B776967220FC71B700F54E3B /* ProfileHeaderView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B7D0211B20DFCC8300372950 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				B72EC6C820EB86130063AACB /* MGPhotoHelper.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		B7D0211C20DFCC8700372950 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B723AC4420E17643005EC0D3 /* Storyboard+Utility.swift */,
+				B72EC6D020EEA28D0063AACB /* UIImage+Size.swift */,
+				B72EC6D220EEAB350063AACB /* StorageReference+Post.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		B7D0211D20DFCD0500372950 /* Supporting */ = {
+			isa = PBXGroup;
+			children = (
+				B723AC4220E17421005EC0D3 /* Constants.swift */,
+				B7D0210D20DF179600372950 /* Info.plist */,
+				B7D0211320DF4FEF00372950 /* GoogleService-Info.plist */,
+			);
+			path = Supporting;
+			sourceTree = "<group>";
+		};
+		BB471AC23003FBCF6CE75748 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DBA02BAF9C774C4485A91287 /* Pods_Makestagram.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B7D020FD20DF179600372950 /* Makestagram */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7D0211020DF179600372950 /* Build configuration list for PBXNativeTarget "Makestagram" */;
+			buildPhases = (
+				EAC85B9968B2C41A4D7AC714 /* [CP] Check Pods Manifest.lock */,
+				B7D020FA20DF179600372950 /* Sources */,
+				B7D020FB20DF179600372950 /* Frameworks */,
+				B7D020FC20DF179600372950 /* Resources */,
+				E69AA49362BB7CF05A9D8718 /* [CP] Embed Pods Frameworks */,
+				EAD59823880E51E8C6ABC806 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Makestagram;
+			productName = Makestagram;
+			productReference = B7D020FE20DF179600372950 /* Makestagram.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B7D020F620DF179600372950 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Shreyak Godala";
+				TargetAttributes = {
+					B7D020FD20DF179600372950 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = B7D020F920DF179600372950 /* Build configuration list for PBXProject "Makestagram" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B7D020F520DF179600372950;
+			productRefGroup = B7D020FF20DF179600372950 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B7D020FD20DF179600372950 /* Makestagram */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B7D020FC20DF179600372950 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7D0210C20DF179600372950 /* LaunchScreen.storyboard in Resources */,
+				B7D0211420DF4FEF00372950 /* GoogleService-Info.plist in Resources */,
+				B7D0210920DF179600372950 /* Assets.xcassets in Resources */,
+				B72EC6D620EF8FB90063AACB /* Home.storyboard in Resources */,
+				B7D0211F20DFD66600372950 /* Login.storyboard in Resources */,
+				B7D0210720DF179600372950 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E69AA49362BB7CF05A9D8718 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Makestagram/Pods-Makestagram-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FacebookCore/FacebookCore.framework",
+				"${BUILT_PRODUCTS_DIR}/FacebookLogin/FacebookLogin.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookLogin.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Makestagram/Pods-Makestagram-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EAC85B9968B2C41A4D7AC714 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Makestagram-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EAD59823880E51E8C6ABC806 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Makestagram/Pods-Makestagram-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseFacebookAuthUI.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseFacebookAuthUI.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Makestagram/Pods-Makestagram-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B7D020FA20DF179600372950 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B728464220F57F6B00BB0EA5 /* FollowService.swift in Sources */,
+				B7D3C1D620E0C69000E767A8 /* User.swift in Sources */,
+				B776967120FC651E00F54E3B /* PostThumpImageCell.swift in Sources */,
+				B72EC6D820EF98D90063AACB /* PostImageCell.swift in Sources */,
+				B72EC6CB20EBE9980063AACB /* StorageService.swift in Sources */,
+				B7D0212120DFD6CF00372950 /* LoginViewController.swift in Sources */,
+				B72EC6D320EEAB350063AACB /* StorageReference+Post.swift in Sources */,
+				B72EC6DC20EFA91E0063AACB /* PostActionCell.swift in Sources */,
+				B728464020F4FC0D00BB0EA5 /* LikeService.swift in Sources */,
+				B72EC6C720EB759D0063AACB /* MainTabBarController.swift in Sources */,
+				B72EC6C920EB86130063AACB /* MGPhotoHelper.swift in Sources */,
+				B7849A5020F5C49A0040642B /* FindFriendsCell.swift in Sources */,
+				B776967320FC71B700F54E3B /* ProfileHeaderView.swift in Sources */,
+				B72EC6CF20EE3A530063AACB /* Post.swift in Sources */,
+				B72EC6D120EEA28D0063AACB /* UIImage+Size.swift in Sources */,
+				B723AC4120E1405A005EC0D3 /* UserService.swift in Sources */,
+				B723AC4720E1AFFD005EC0D3 /* HomeViewController.swift in Sources */,
+				B776966F20FC5A1400F54E3B /* ProfileViewController.swift in Sources */,
+				B723AC4520E17643005EC0D3 /* Storyboard+Utility.swift in Sources */,
+				B723AC4920E1B01D005EC0D3 /* FindFriendsViewController.swift in Sources */,
+				B723AC4320E17421005EC0D3 /* Constants.swift in Sources */,
+				B72EC6CD20EE1B4E0063AACB /* PostService.swift in Sources */,
+				B7CC44D320E0D72D00659AA7 /* CreateUserNameViewController.swift in Sources */,
+				B72EC6DA20EFA1A10063AACB /* PostHeaderCell.swift in Sources */,
+				B7D0210220DF179600372950 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B7D0210520DF179600372950 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B7D0210620DF179600372950 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B7D0210A20DF179600372950 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B7D0210B20DF179600372950 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B7D0210E20DF179600372950 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B7D0210F20DF179600372950 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B7D0211120DF179600372950 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2DBF1AF87CF929C51859F1F /* Pods-Makestagram.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3AA4M8PFN6;
+				INFOPLIST_FILE = "$(SRCROOT)/Makestagram/Supporting/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shreyak.Makestagram;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B7D0211220DF179600372950 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C36CE80444D435B01DF889C /* Pods-Makestagram.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3AA4M8PFN6;
+				INFOPLIST_FILE = "$(SRCROOT)/Makestagram/Supporting/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shreyak.Makestagram;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B7D020F920DF179600372950 /* Build configuration list for PBXProject "Makestagram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7D0210E20DF179600372950 /* Debug */,
+				B7D0210F20DF179600372950 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7D0211020DF179600372950 /* Build configuration list for PBXNativeTarget "Makestagram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7D0211120DF179600372950 /* Debug */,
+				B7D0211220DF179600372950 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B7D020F620DF179600372950 /* Project object */;
+}
